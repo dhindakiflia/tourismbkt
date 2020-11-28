@@ -2202,7 +2202,7 @@
 
               map.setCenter(centerBaru);
 
-              $('#table_kanan_restaurant').append("<tr><td>"+name+"</td><td><a role='button'style='' title='route' class='btn btn-success fa fa-road' onclick='route_sekitar(\""+latitude+"\",\""+longitude+"\",\""+lat+"\",\""+lon+"\")'></a></td><td><a role='button'style='' class='btn btn-success fa fa-info' title='info' onclick='modal_event(\""+id+"\")'></a></td><td><a role='button'style='' class='btn btn-success fa fa-map-marker' title='position' onclick='set_center(\""+lat+"\",\""+lon+"\",\""+name+"\")'></a></td><td><a role='button' class='btn btn-success fa fa-taxi' title='angkot'style='' onclick='angkot_sekitar_lagi(\""+id+"\")'></a></td></tr>");
+              $('#table_kanan_restaurant').append("<tr><td>"+name+"</td><td><a role='button'style='' title='route' class='btn btn-success fa fa-road' onclick='route_sekitar(\""+latitude+"\",\""+longitude+"\",\""+lat+"\",\""+lon+"\")'></a></td><td><a role='button'style='' class='btn btn-success fa fa-info' title='info' onclick='modal_event(\""+id+"\")'></a></td><td><a role='button'style='' class='btn btn-success fa fa-map-marker' title='position' onclick='set_center(\""+lat+"\",\""+lon+"\",\""+name+"\")'></a></td></tr>");
             }//end for
           }});//end ajax  
         }
